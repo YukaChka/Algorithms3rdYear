@@ -1,0 +1,10 @@
+from math import hypot
+
+# Разности координат — катеты. Расстояние между точками — гипотенуза.
+x1 = float(input("x1: "))
+y1 = float(input("y1: "))
+x2 = float(input("x2: "))
+y2 = float(input("y2: "))
+
+distance = hypot(x2 - x1, y2 - y1)
+print("Расстояние между точками:", distance)
